@@ -1,0 +1,6 @@
+../Core/Src/speculation.c:137:6:init_spec	1
+../Core/Src/speculation.c:141:6:SPECCFA_reset	2
+../Core/Src/speculation.c:157:5:SPECCFA_process_log_entry	10
+../Core/Src/speculation.c:211:6:SPECCFA_speculate	9
+../Core/Src/speculation.c:276:6:SPECCFA_detect_path	9
+../Core/Src/speculation.c:325:6:SPECCFA_detect_paths	2

@@ -1,0 +1,115 @@
+#define TOTAL_BLOCKS	8
+
+#define BLOCK0_SIZE		9
+uint32_t path0[BLOCK0_SIZE] = {
+		0x08040cf8,
+		0x08040d1a,
+		0x08040e14,
+		0x08040e26,
+		0x08040e3e,
+		0x08040e4a,
+		0x08040e5c,
+		0x0804127e,
+		0x08041268
+};
+#if TOTAL_BLOCKS >= 2
+#define BLOCK1_SIZE		3
+uint32_t path1[BLOCK1_SIZE] = {
+		0x080402ae,
+		0x08040250,
+		0x08040280
+};
+#endif
+#if TOTAL_BLOCKS >= 3
+#define BLOCK2_SIZE		14
+uint32_t path2[BLOCK2_SIZE] = {
+		0x08040cf8,
+		0x08040d58,
+		0x08040d70,
+		0x08040d7a,
+		0x08040d84,
+		0x08040d9a,
+		0x080407d0,
+		0x080408f2,
+		0x08040980,
+		0x08040c84,
+		0x08040c94,
+		0x08040db2,
+		0x08040db4,
+		0x0804127e
+};
+#endif
+#if TOTAL_BLOCKS >= 4
+#define BLOCK3_SIZE		5
+uint32_t path3[BLOCK3_SIZE] = {
+		0x08040250,
+		0x0804025a,
+		0x08040280,
+		0x0804028a,
+		0x080402ae
+};
+#endif
+#if TOTAL_BLOCKS >= 5
+#define BLOCK4_SIZE		6
+uint32_t path4[BLOCK4_SIZE] = {
+		0x08040d1a,
+		0x08040d22,
+		0x08040d2a,
+		0x08040d32,
+		0x08040d3a,
+		0x08040d42
+};
+#endif
+#if TOTAL_BLOCKS >= 6
+#define BLOCK5_SIZE		7
+uint32_t path5[BLOCK5_SIZE] = {
+		0x08041268,
+		0x08040cf8,
+		0x08040d1a,
+		0x08040e14,
+		0x08040e26,
+		0x08040e3e,
+		0x08040e5c
+
+};
+#endif
+#if TOTAL_BLOCKS >= 7
+#define BLOCK6_SIZE		15
+uint32_t path6[BLOCK6_SIZE] = {
+		0x0804128a,
+		0x080411b8,
+		0x08040e94,
+		0x08040ea4,
+		0x08040eba,
+		0x08040ec4,
+		0x08040eda,
+		0x080411d2,
+		0x08040ef4,
+		0x08040e94,
+		0x08040ea4,
+		0x08040eba,
+		0x08040ec4,
+		0x08040eda,
+		0x08040f12
+};
+#endif
+#if TOTAL_BLOCKS >= 8
+#define BLOCK7_SIZE		15
+uint32_t path7[BLOCK7_SIZE] = {
+		0x08040f1a,
+		0x08040f48,
+		0x080411e6,
+		0x08040f8c,
+		0x08040f9c,
+		0x08040fa8,
+		0x08040fb2,
+		0x08040fc0,
+		0x080411fa,
+		0x08040fd8,
+		0x08040f8c,
+		0x08040f9c,
+		0x08040fa8,
+		0x08040fb2,
+		0x08040fc0
+};
+#endif

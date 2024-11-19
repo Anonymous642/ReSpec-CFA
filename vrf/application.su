@@ -1,0 +1,4 @@
+application.c:1028:6:delay	24	static
+application.c:1035:10:pulseIn	16	static
+application.c:1046:10:getUltrasonicReading	16	static
+application.c:1067:6:application	16	static
