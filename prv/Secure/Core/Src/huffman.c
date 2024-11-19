@@ -544,15 +544,8 @@ int huffman(CFA_REPORT * report_secure, uint8_t * to_log, int original_size, int
 	// Huffman encode each byte
 	int encoded_size = 0;
 
-	bits_left_local = report_secure -> bits_left; // sanity check to ensure the modules stay synced
-	
-        /*
-        As huffman codes work on bits, a subpath may begin in the middle of a byte. Thus if the value being encoded
-          is a subpath-ID (or repeat count) we need to copy the correct bits out of the log before replacing the subpath
-          with its encoded ID. Also note that if the subpath occurs as the first entry to a new log (safety_save > MAX_LOG_SIZE)
-          we do no need to copy any values out of the log
-        */
-        if(speculating == 1 && safety_save <= MAX_LOG_SIZE_BYTES){
+	bits_left_local = report_secure -> bits_left;
+	if(speculating == 1 && safety_save <= MAX_LOG_SIZE_BYTES){
 		for(int j=0; j<8-bits_left_local; j++){
 		    mask = 0x00000080 | (mask >> 1);
 		}
@@ -599,10 +592,6 @@ int huffman(CFA_REPORT * report_secure, uint8_t * to_log, int original_size, int
 	    }
 	}
 
-	/*
-        Any remaining encoded bits are written to the end of the log to ensure that any trailing huffman bits are sent 
-          to the verifier in the final log
-        */
 	safety_save = report_secure->num_CF_Log_size + encoded_size;
 	if(!(safety_save > MAX_LOG_SIZE_BYTES+1)){
 	    report_secure->CFLog[report_secure->num_CF_Log_size + encoded_size] = ((uint8_t*) &encoded_byte)[3];

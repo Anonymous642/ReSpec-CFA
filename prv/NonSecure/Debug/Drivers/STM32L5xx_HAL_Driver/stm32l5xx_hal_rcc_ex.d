@@ -1,5 +1,5 @@
 Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o: \
- /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c \
+ /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c \
  ../../Drivers/STM32L5xx_HAL_Driver/Inc/stm32l5xx_hal.h \
  ../Core/Inc/stm32l5xx_hal_conf.h \
  ../../Drivers/STM32L5xx_HAL_Driver/Inc/stm32l5xx_hal_rcc.h \

@@ -1,2 +1,0 @@
-../Core/Src/prefix.c:14:6:prefix_reset	16	static
-../Core/Src/prefix.c:22:5:prefix_handler	32	static

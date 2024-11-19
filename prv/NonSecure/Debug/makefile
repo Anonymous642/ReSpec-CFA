@@ -34,37 +34,37 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := ReSpec-CFA_NonSecure
+BUILD_ARTIFACT_NAME := SpecCFA-TZ_NonSecure
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-ReSpec-CFA_NonSecure.elf \
+SpecCFA-TZ_NonSecure.elf \
 
 MAP_FILES += \
-ReSpec-CFA_NonSecure.map \
+SpecCFA-TZ_NonSecure.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-ReSpec-CFA_NonSecure.list \
+SpecCFA-TZ_NonSecure.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: ReSpec-CFA_NonSecure.elf secondary-outputs
+main-build: SpecCFA-TZ_NonSecure.elf secondary-outputs
 
 dependents:
-	-cd /home/lgt2621/Desktop/ReSpec-CFA/prv/Secure/Debug && $(MAKE) all
+	-cd /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Secure/Debug && $(MAKE) all
 
 # Tool invocations
-ReSpec-CFA_NonSecure.elf ReSpec-CFA_NonSecure.map: $(OBJS) $(USER_OBJS) /home/lgt2621/Desktop/ReSpec-CFA/prv/Secure/Debug/ReSpec-CFA_Secure.elf /home/lgt2621/Desktop/ReSpec-CFA/prv/NonSecure/STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ReSpec-CFA_NonSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"/home/lgt2621/Desktop/ReSpec-CFA/prv/NonSecure/STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ReSpec-CFA_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SpecCFA-TZ_NonSecure.elf SpecCFA-TZ_NonSecure.map: $(OBJS) $(USER_OBJS) /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Secure/Debug/SpecCFA-TZ_Secure.elf /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/NonSecure/STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SpecCFA-TZ_NonSecure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/NonSecure/STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpecCFA-TZ_NonSecure.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,14 +73,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-ReSpec-CFA_NonSecure.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "ReSpec-CFA_NonSecure.list"
+SpecCFA-TZ_NonSecure.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "SpecCFA-TZ_NonSecure.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) ReSpec-CFA_NonSecure.elf ReSpec-CFA_NonSecure.list ReSpec-CFA_NonSecure.map default.size.stdout
+	-$(RM) SpecCFA-TZ_NonSecure.elf SpecCFA-TZ_NonSecure.list SpecCFA-TZ_NonSecure.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
@@ -93,6 +93,6 @@ warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
 .PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Secure/Debug/ReSpec-CFA_Secure.elf:
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Secure/Debug/SpecCFA-TZ_Secure.elf:
 
 -include ../makefile.targets

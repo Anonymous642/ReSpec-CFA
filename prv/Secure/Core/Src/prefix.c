@@ -20,13 +20,13 @@ void prefix_reset(){
 }
 
 int prefix_handler(uint32_t write_value, CFA_REPORT * report_secure, uint8_t * to_log){
-	int size = SUFFIX_BYTE_LEN; // Default to the prefixes matching
+	int size = SUFFIX_BYTE_LEN;
 
-	if ((to_log[3] == REPEAT_SYMBOL) && (to_log[2]== REPEAT_SYMBOL)){ // If its a repeat count
+	if ((to_log[3] == REPEAT_SYMBOL) && (to_log[2]== REPEAT_SYMBOL)){
 		size = 3;
-	}else if ((to_log[3] == SPEC_ID_SYMBOL) && (to_log[2] == SPEC_ID_SYMBOL) && (to_log[1] == SPEC_ID_SYMBOL)){ // or a subpath-id, adjust accordingly
+	}else if ((to_log[3] == SPEC_ID_SYMBOL) && (to_log[2] == SPEC_ID_SYMBOL) && (to_log[1] == SPEC_ID_SYMBOL)){
 		size = 2;
-	}else if ((write_value & prefix_mask) != prefix){ // otherwise if the prefixes are different, update and log the new active prefix
+	}else if ((write_value & prefix_mask) != prefix){
 		prefix = (write_value & prefix_mask);
 		for(int i=4; i<4+SUFFIX_BYTE_LEN; i++){
 			to_log[i] = 0x33;

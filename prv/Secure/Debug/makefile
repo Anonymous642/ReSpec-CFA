@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := ReSpec-CFA_Secure
+BUILD_ARTIFACT_NAME := SpecCFA-TZ_Secure
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-ReSpec-CFA_Secure.elf \
+SpecCFA-TZ_Secure.elf \
 
 MAP_FILES += \
-ReSpec-CFA_Secure.map \
+SpecCFA-TZ_Secure.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-ReSpec-CFA_Secure.list \
+SpecCFA-TZ_Secure.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: ReSpec-CFA_Secure.elf secondary-outputs
+main-build: SpecCFA-TZ_Secure.elf secondary-outputs
 
 # Tool invocations
-ReSpec-CFA_Secure.elf ReSpec-CFA_Secure.map: $(OBJS) $(USER_OBJS) /home/lgt2621/Desktop/ReSpec-CFA/prv/Secure/STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ReSpec-CFA_Secure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"/home/lgt2621/Desktop/ReSpec-CFA/prv/Secure/STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ReSpec-CFA_Secure.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SpecCFA-TZ_Secure.elf SpecCFA-TZ_Secure.map: $(OBJS) $(USER_OBJS) /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Secure/STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SpecCFA-TZ_Secure.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Secure/STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpecCFA-TZ_Secure.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-ReSpec-CFA_Secure.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "ReSpec-CFA_Secure.list"
+SpecCFA-TZ_Secure.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "SpecCFA-TZ_Secure.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) ReSpec-CFA_Secure.elf ReSpec-CFA_Secure.list ReSpec-CFA_Secure.map default.size.stdout
+	-$(RM) SpecCFA-TZ_Secure.elf SpecCFA-TZ_Secure.list SpecCFA-TZ_Secure.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

@@ -5,27 +5,27 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gtzc.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c \
-/home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c 
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gtzc.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c \
+/home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c 
 
 OBJS += \
 ./Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o \
@@ -75,47 +75,47 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_cortex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_dma_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_exti.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_flash_ramfunc.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gpio.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gtzc.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gtzc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_gtzc.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gtzc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_i2c_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_icache.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_pwr_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_rcc_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_tim_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart_ex.o: /home/lgt2621/Desktop/ReSpec-CFA/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
+Drivers/STM32L5xx_HAL_Driver/stm32l5xx_hal_uart_ex.o: /home/lgt2621/Desktop/ReSpec-CFA_prototype/prv/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c Drivers/STM32L5xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L552xx -c -I../Core/Inc -I../../Secure_nsclib -I../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Drivers-2f-STM32L5xx_HAL_Driver

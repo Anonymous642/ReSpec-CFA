@@ -1,6 +1,0 @@
-../Core/Src/main.c:83:5:main	16	static
-../Core/Src/main.c:152:6:MPU_init	24	static
-../Core/Src/main.c:195:6:FPU_Init	16	static,ignoring_inline_asm
-../Core/Src/main.c:218:13:NonSecure_Init	24	static,ignoring_inline_asm
-../Core/Src/main.c:238:6:SystemClock_Config	104	static
-../Core/Src/main.c:291:6:Error_Handler	4	static,ignoring_inline_asm

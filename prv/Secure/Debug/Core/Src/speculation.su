@@ -1,6 +1,0 @@
-../Core/Src/speculation.c:137:6:init_spec	8	static
-../Core/Src/speculation.c:141:6:SPECCFA_reset	16	static
-../Core/Src/speculation.c:157:5:SPECCFA_process_log_entry	32	static
-../Core/Src/speculation.c:211:6:SPECCFA_speculate	16	static
-../Core/Src/speculation.c:276:6:SPECCFA_detect_path	40	static
-../Core/Src/speculation.c:325:6:SPECCFA_detect_paths	32	static

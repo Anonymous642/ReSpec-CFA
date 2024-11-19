@@ -35,12 +35,12 @@ To begin using ReSPec-CFA, you will need to import the project to the CubeIDE. F
 
 <p align="center"><img src="./imgs/import2_redacted.png"></p>
 
-3. Once loaded a "ReSpec-CFA" folder will appear in the Project Explorer window. Expanding this folder should reveal two subfolders: "ReSpec-CFA_NonSecure" and "ReSpec-CFA_Secure". Right-click ReSpec-CFA_NonSecure and select "Properties".
+3. Once loaded a "ReSpec-CFA" folder will appear in the Project Explorer window. Expanding this folder should reveal two subfolders: "SpecCFA-TZ_NonSecure" and "SpecCFA-TZ_Secure". Right-click SpecCFA-TZ_NonSecure and select "Properties".
 4. In the resulting window, select "C/C++ Build -> Settings" in the left column. In this tab select "MCU Post build outputs" and ensure that "Generate list file" is checked. Once enabled click "Apply and Close"
 
 <p align="center"><img src="./imgs/import4.png"></p>
 
-5. Repeat steps 3 and 4 for ReSpec-CFA_Secure
+5. Repeat steps 3 and 4 for SpecCFA-TZ_Secure
 
 ## Selecting a Test Application
 
@@ -56,7 +56,7 @@ Once selected, navigate to the `vrf` directory (if not already there) and run th
 
 This will configure the application with the necessary CFA instrumentation to the application and update the `prv` directory. The script may throw some warnings but this is fine.
 
-Once compiled, in STM32CubeIDE right click both ReSpec-CFA_NonSecure and ReSpec-CFA_Secure and select "Clean Project". 
+Once compiled, in STM32CubeIDE right click both SpecCFA-TZ_NonSecure and SpecCFA-TZ_Secure and select "Clean Project". 
 
 ## Configuring ReSpec-CFA
 
@@ -114,7 +114,7 @@ To update the symbol you will need to change the `SPEC_ID_SYMBOL` (line 27) and 
 
 ### Building the Application
 
-Once you have configured ReSpec-CFA, right click ReSpec-CFA_NonSecure and ReSpec-CFA_Secure in Project_Explorer and click "Build Project"
+Once you have configured ReSpec-CFA, right click SpecCFA-TZ_NonSecure and SpecCFA-TZ_Secure in Project_Explorer and click "Build Project"
 
 
 ## Running the Application
@@ -122,7 +122,7 @@ Once you have configured ReSpec-CFA, right click ReSpec-CFA_NonSecure and ReSpec
 Once built, you are ready to run the test application. To do this:
 
 0. Ensure the development board is plugged into your device
-1. Right click ReSpec-CFA_Secure in Project Explorer and select "Run as -> STM32 C/C++ application". This will compile the application and flash it onto the MCU. This process takes a minute or two to complete.
+1. Right click SpecCFA-TZ_Secure in Project Explorer and select "Run as -> STM32 C/C++ application". This will compile the application and flash it onto the MCU. This process takes a minute or two to complete.
 
 <p align="center"><img src="./imgs/running_2.png"></p>
 
