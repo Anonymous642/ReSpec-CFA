@@ -173,7 +173,7 @@ def main():
     decoded_log = load_logs(args.directory)
     baseline = load_logs(args.baseline)
 
-    # Edit this key to load the apropriate subpaths for the selected test
+    # Edit this key to load the appropriate subpaths for the selected test
     SUBPATHS = SUBPATHS_DEFS["TEMP"]
     
     
@@ -198,7 +198,7 @@ def main():
     print(f"Recieved log matches baseline: {baseline == decoded_log}")
 
     # Uncomment to see decode log (debugging)
-    #with open("./cflog/test_decoding.txt", "w") as ofp:
+    #with open("./cflogs/test_decoding.txt", "w") as ofp:
     #    for i in range(0, len(decoded_log), 8):
     #        ofp.write(decoded_log[i:i+8]+"\n")
 
