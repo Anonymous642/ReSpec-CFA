@@ -2,10 +2,9 @@ import sys
 
 ALPHABET_SIZE = 256
 FILE = "huffman_decoding.txt"
-INTERMEDIATE_PATHS = ["huffman/", "combos/prefix_huff/", "combos/spec_huff/1/", "combos/spec_huff/2/", 
-                      "combos/spec_huff/3/", "combos/spec_huff/4/", "combos/spec_huff/5/", "combos/spec_huff/6/", 
-                      "combos/spec_huff/7/", "combos/spec_huff/8/", "combos/all/1/", "combos/all/2/", "combos/all/3/", 
-                      "combos/all/4/", "combos/all/5/", "combos/all/6/", "combos/all/7/", "combos/all/8/"]
+INTERMEDIATE_PATHS = ["huffman/", "combos/prefix_huff/", "combos/spec_huff/", "combos/all/"]
+
+APPS = ["geiger/", "gps/", "mouse/", "syringe/", "temp/", "ultra/"]
 
 
 def compute_encoding_size(encoding_file):
@@ -41,10 +40,25 @@ def main():
     if log_directory[-1] != "/": # sanity check
         log_directory += "/"
 
-    for intermediate in INTERMEDIATE_PATHS:
-        file_path = f"{log_directory}{intermediate}{FILE}"
-        raw_size, adjusted_size = compute_encoding_size(file_path)
-        print(f"{intermediate}: raw = {(raw_size/8) + (ALPHABET_SIZE)}, adjusted = {(adjusted_size/8) + (ALPHABET_SIZE)}")
+    if log_directory in APPS:
+        max_subpaths = 8
+        if log_directory == "ultra/":
+            max_subpaths = 6
+
+        for i in range(4):
+            intermediate = INTERMEDIATE_PATHS[i]
+            if i > 1:
+                for j in range(1,max_subpaths):
+                    file_path = f"{log_directory}{intermediate}{j}/{FILE}"
+                    raw_size, adjusted_size = compute_encoding_size(file_path)
+                    print(f"{intermediate}: raw = {(raw_size/8) + (ALPHABET_SIZE)}, adjusted = {(adjusted_size/8) + (ALPHABET_SIZE)}")
+            else:
+                file_path = f"{log_directory}{intermediate}{FILE}"
+                raw_size, adjusted_size = compute_encoding_size(file_path)
+                print(f"{intermediate}: raw = {(raw_size/8) + (ALPHABET_SIZE)}, adjusted = {(adjusted_size/8) + (ALPHABET_SIZE)}")
+    else:
+        raw_size, adjusted_size = compute_encoding_size(f"{log_directory}{FILE}")
+        print(f"{log_directory}: raw = {(raw_size/8) + (ALPHABET_SIZE)}, adjusted = {(adjusted_size/8) + (ALPHABET_SIZE)}")
 
 
 if __name__ == "__main__":

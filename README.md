@@ -178,8 +178,11 @@ The `get_counts.sh` bash script performs a similar operation, counting the total
 
     ./get_counts.sh path/to/logdir
 
-TODO
-The `huffman_table_overhead_calculator.py` script computes the overhead of 
+The `huffman_table_overhead_calculator.py` script computes the memory overhead of the Huffman table for a given test. To use the script run:
+
+    python huffman_table_overhead_calculator.py path/to/logdir
+
+By default, this script will calculate the overhead for the Huffman table in the provided directory. However, if you supply the script with the top directory of any test application (`geiger/`, `gps/`, `mouse/`, `syringe/`, `temp/`, or `ultra/`) it will automatically compute the Huffman table overhead for all tests within the directory.
 
 The `path_selection.py` script can be used to generate SpecCFA subpaths based on provided CFLogs. The script can be run as follows:
 
